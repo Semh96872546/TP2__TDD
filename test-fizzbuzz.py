@@ -1,9 +1,3 @@
-import unittest
-from fizzbuzz import affiche
+def test_affiche_with_n(self):
+    self.assertEqual(affiche(15), "12Fizz4BuzzFizz78FizzBuzz11Fizz1314FrisBee")
 
-class TestFizzBuzz(unittest.TestCase):
-    def test_affiche(self):
-        self.assertEqual(affiche(), "12Fizz4BuzzFizz78FizzBuzz11Fizz1314FrisBee...")
-
-if __name__ == "__main__":
-    unittest.main()
